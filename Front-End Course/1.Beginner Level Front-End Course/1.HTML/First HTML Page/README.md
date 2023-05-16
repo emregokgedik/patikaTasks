@@ -1,6 +1,6 @@
 You can reach instructions of the task below.
 <br /><br />
-    [Clik to reach instructions of the task.](https://academy.patika.dev/tr/courses/html/odev1) <br/><br/>
+    [Click to reach instructions of the task.](https://academy.patika.dev/tr/courses/html/odev1) <br/><br/>
     **Screenshots from the task :**<br/>
     <hr/>
 > 
