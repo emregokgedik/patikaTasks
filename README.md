@@ -7,7 +7,7 @@ In this repository, you can reach my codes of tasks in 6-month Patika Software D
 ## 1. Beginner Level Front-End Course
     
  **A.HTML Section Tasks**
-- [First HTML Page - creating a basic index.html file with using heading and p tags](https://github.com/emregokgedik/patikaOdevlerim/tree/main/FrontEnd%20Yazilim%20Egitimi/1.Baslangic%20Seviye%20FrontEnd%20Yazilim%20Egitimi/1.HTML/%C4%B0lk%20Html%20Sayfas%C4%B1) 
+- [First HTML Page - creating a basic index.html file with using heading and p tags](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/1.Beginner%20Level%20Front-End%20Course/1.HTML/First%20HTML%20Page) 
         
  **B.CSS Section Tasks**
         
