@@ -1,14 +1,14 @@
 
-# Patika Ödevlerim
+# My Patika Tasks
 
-Bu dağıtımda Patika platformunda tamamladığım eğitimlerin ödev kodlarına erişim sağlayabilirsiniz.
+In this repository, you can reach my codes of tasks in 6-month Patika Software Development Course.
 
-# Front-End Eğitimi
-## 1. Başlangıç Seviye Front-End eğitimi
+# Front-End Course
+## 1. Beginner Level Front-End Course
     
- **A.HTML Kısmı Ödevleri**
-- [İlk Html Sayfası - heading ve p etiketlerini kullanarak index.html sayfası oluşturma](https://github.com/emregokgedik/patikaOdevlerim/tree/main/FrontEnd%20Yazilim%20Egitimi/1.Baslangic%20Seviye%20FrontEnd%20Yazilim%20Egitimi/1.HTML/%C4%B0lk%20Html%20Sayfas%C4%B1) 
+ **A.HTML Section Tasks**
+- [First HTML Page - creating a basic index.html file with using heading and p tags](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/1.Beginner%20Level%20Front-End%20Course/1.HTML/First%20HTML%20Page) 
         
- **B.CSS Kısmı Ödevleri**
+ **B.CSS Section Tasks**
         
  **C.Javascript Kısmı Ödevleri**
