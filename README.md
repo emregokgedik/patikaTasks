@@ -12,4 +12,4 @@ In this repository, you can reach my codes of tasks in 6-month Patika Software D
         
  **B.CSS Section Tasks**
         
- **C.Javascript Kısmı Ödevleri**
+ **C.Javascript Section Tasks**
