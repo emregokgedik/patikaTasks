@@ -4,4 +4,5 @@ You can reach instructions of the task below.
     **Screenshots from the task :**<br/>
     <hr/>
 > 
-![Screenshot_1](https://github.com/emregokgedik/patikaOdevlerim/assets/71225557/ea1cdc87-96d4-42dc-8aa2-118d66e340a6)
+
+![Screenshot_3](https://github.com/emregokgedik/patikaTasks/assets/71225557/503e5e70-f4e8-4c55-a533-4b940f415242)
