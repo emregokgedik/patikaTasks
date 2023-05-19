@@ -1,5 +1,130 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    height: 100%;
+}
+nav{
+    width: 100%;
+}
+nav>div>a{
+    margin-left:15px;
+    margin-right:5px;
+}
+.box1{
+    padding:1%;
+    width: 28%;
+    float:left;
+    font-size: 13px;
+    opacity: 0.75;
+}
+.box2{
+    padding:1%;
+    width: 28%;
+    float:left;
+    margin-left:40%;
+    text-align:right;
+    font-size: 13px;
+    color:rgba(0,0,0,0.87);
+}
+section{
+    text-align:center;
+}
+img[alt="google-logo"]{
+    margin-top:150px;
+}
+a:link {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #000;
+  }
+  
+  a:active {
+    text-decoration: underline;
+    color: #000;
+  }
+  .sign-in-button{
+    background-color:#4285f4;
+    padding:8px;
+    border-radius: 2px;
+    font-weight: bold;
+  }
+  a.sign-in-button{
+    color:white;
+  }
+  a.app-icon{
+    padding: 10px;
+      opacity: .55;
+  }
+  a.app-icon:hover{
+      opacity: .85;
+  }
+ .box2>a:hover{
+    opacity: .85;
+  }
+  a.sign-in-button:hover{
+    opacity: 1;
+    text-decoration: none;
+    cursor:default;
+  }
+  footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    border-top: 1px solid rgba(0,0,0,0.15);
+  }
+  .box3{
+      padding:0.65%;
+      width: 28.35%;
+      float:left;
+      font-size: 13px;
+      opacity: 0.75;
+  }
+  .box4{
+      padding:0.65%;
+      width: 28.35%;
+      float:left;
+      margin-left:40%;
+      text-align:right;
+      font-size: 13px;
+      color:rgba(0,0,0,0.87);
+  }
+  .box3>a,.box4>a{
+    margin:10px;
+  }
+  section{
+    width: 100%;
+  }
+  .searchbar{
+    padding:0.1%;
+    border-radius: 24px;
+    width: 30%;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    border: 1px solid rgba(0,0,0,0.15);
+  }
+  .searchbar>input{
+    margin:0;
+    width: 85%;
+    border:none;
+    outline: none;
+  }
+  .microphone{
+    width: 5%;
+  }
+  .searchbar>svg{
+    width: 4%;
+    opacity: 0.3;
+  }

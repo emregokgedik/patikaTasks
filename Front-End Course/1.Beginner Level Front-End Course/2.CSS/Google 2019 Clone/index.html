@@ -4,32 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <div style="margin:20px; background-color:red;">
-        <div style="float:left; width:30%; margin-right: 40%; background-color: blue;">
-            <a>About</a>
-            <a>Store</a>
+    <nav>
+        <div class="box1">
+            <a href="#">About</a>
+            <a href="#">Store</a>
         </div>
-        <div style="float: left; width:30%; text-align:right; background-color:yellow">
-            <a>Gmail</a>
-            <a>Images</a>
-            <a>Icon</a>
-            <a>Sign In</a>
+        <div class="box2">
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+            <a class="app-icon" href="#"><img width="16px" src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/24ddf722023406d6a7adcd97e0c5f5737e36bb8a/css/odev2/google_homepage/assets/appsbutton.svg" alt=""></a>
+            <a class="sign-in-button" href="#">Sign In</a>
         </div>
-    </div>
-    <!-- Main Content Starts  
-    <section style="width: 100%; padding-top: 10%;">
-        <div style="width:100%; text-align:center;">
-<img style="margin-bottom: 25px;" src="https://web.archive.org/web/20191130234759im_/https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
-        </div> 
-        <div style="text-align:center; width:100%;">
-            <div style="border:1px solid; border-radius:24px; width:30%; margin-right:auto; margin-left:auto;">
-                <input style="padding:0.5% 10%; width:65%" type="text"></div>
-        </div>
+    </nav>
 
-    </section>  
-      Main Content Ends  -->
+    <section>
+        <div><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google-logo">
+        </div>
+        <div class="searchbar">
+            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+            <input type="text">
+            <img class="microphone" src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/css/odev2/google_homepage/assets/voicelogo.png" alt="">
+        </div>
+        
+    </section>
+
+    <footer>
+        <div class="box3">
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search works</a>
+        </div>
+        <div class="box4">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+        </div>
+    </footer>
 </body>
 </html>
