@@ -1,7 +1,7 @@
 
 # My Patika Tasks
 
-In this repository, you can reach my codes of tasks in 6-month Patika Software Development Course.
+In this repository, you can reach my codes of tasks in courses from Patika.
 
 # Front-End Course
 ## 1. Beginner Level Front-End Course
