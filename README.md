@@ -19,4 +19,6 @@ In this repository, you can reach my codes of tasks in courses from Patika.
 - [Google 2019 Clone - created a Google 2019 clone website by using HTML&CSS](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/1.Beginner%20Level%20Front-End%20Course/2.CSS/Google%202019%20Clone) 
 
         
- **C.Javascript Section Tasks**
+ **C.Bootstrap Section Tasks**
+
+- [Music Store Website - a basic Music Store website created with using HTML&CSS&Boostrap](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/1.Beginner%20Level%20Front-End%20Course/3.BOOTSTRAP/Music%20Store%20Website)
