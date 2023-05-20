@@ -16,5 +16,7 @@ In this repository, you can reach my codes of tasks in 6-month Patika Software D
  
 - [Music Store Website - a basic Music Store website created with using HTML&CSS](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/1.Beginner%20Level%20Front-End%20Course/2.CSS/Music%20Store%20Website) 
 - [Google 1998 Clone - created a Google 1998 clone website by using HTML&CSS](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/1.Beginner%20Level%20Front-End%20Course/2.CSS/Google%201998%20Clone) 
+- [Google 2019 Clone - created a Google 2019 clone website by using HTML&CSS](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/1.Beginner%20Level%20Front-End%20Course/2.CSS/Google%202019%20Clone) 
+
         
  **C.Javascript Section Tasks**
