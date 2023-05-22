@@ -28,7 +28,8 @@ In this repository, created a Music Store website by using HTML&CSS&Bootstrap.
 <details>
   <summary><b>About Us Page Screenshot</b></summary>
     
-  ![AboutUsBootstrap](https://github.com/emregokgedik/patikaTasks/assets/71225557/01997593-eede-49a3-9dd6-331f9463639d)
+    
+![AboutUsBootstrap](https://github.com/emregokgedik/patikaTasks/assets/71225557/9c0702bd-7902-4ac4-80de-51bdeaaa51f7)
 
 
 
