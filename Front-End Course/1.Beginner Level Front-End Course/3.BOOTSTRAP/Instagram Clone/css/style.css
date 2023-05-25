@@ -44,3 +44,6 @@ input.empty {
   text-decoration: none;
   color: lightgrey;
 }
+.leftsidebar .postuserfont:not(.ml-2) {
+  float:right;
+}
