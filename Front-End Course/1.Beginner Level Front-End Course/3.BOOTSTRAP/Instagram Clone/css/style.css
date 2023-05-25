@@ -1,8 +1,10 @@
 ::placeholder{
+  background-image: url("../assets/search-solid.svg");
+  background-repeat: no-repeat;
   text-align: center;
   font-size: 14px;
   color: gray;
-  background-position: 40%;
+  background-position: 35%;
   background-size: 6%;
 }
 
