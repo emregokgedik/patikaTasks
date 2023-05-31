@@ -49,3 +49,6 @@ input.empty {
 .leftsidebar .postuserfont:not(.ml-2) {
   float:right;
 }
+.card-header{
+  color:rgb(255,255,255);
+}
