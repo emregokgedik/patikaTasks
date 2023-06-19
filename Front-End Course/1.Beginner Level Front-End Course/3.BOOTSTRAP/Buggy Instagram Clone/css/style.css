@@ -56,3 +56,12 @@ body{
 .logo{
   margin-left:192px;
 }
+.middlearea{
+  max-height: 200px!important;
+}
+.fas.fa-ellipsis-h{
+  float:right;
+}
+.list-group.list-group-horizontal.mt-1{
+  border:none;
+}
