@@ -65,3 +65,9 @@ body{
 .list-group.list-group-horizontal.mt-1{
   border:none;
 }
+#sticky-sidebar{
+  position: fixed;
+}
+#sticky-sidebar.rightpanel{
+  background-color:#ffffff;
+}
