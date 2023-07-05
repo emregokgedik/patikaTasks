@@ -28,4 +28,5 @@ In this repository, you can reach my codes of tasks in courses from Patika.
 **D.Javascript Section Tasks**
 # 6 Months Software Education Tasks
 
-- [Week 6 Tasks: ReverseText,isPolindrom,SortIntArr functions in C language](https://github.com/emregokgedik/patikaTasks/tree/main/Other%20Tasks/6_Months_Software_Education_Tasks/Week%206) 
+- [Week 6 Tasks: ReverseText, isPolindrom, SortIntArr functions in C language](https://github.com/emregokgedik/patikaTasks/tree/main/Other%20Tasks/6_Months_Software_Education_Tasks/Week%206) 
+- [Week 7 Tasks: Basic examples such as pointers, creating/editing text files in C language](https://github.com/emregokgedik/patikaTasks/tree/main/Other%20Tasks/6_Months_Software_Education_Tasks/Week%207) 
