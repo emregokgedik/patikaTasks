@@ -24,6 +24,7 @@ In this repository, you can reach my codes of tasks in courses from Patika.
 - [Music Store Website - a basic Music Store website created with using HTML&CSS&Boostrap](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/1.Beginner%20Level%20Front-End%20Course/3.BOOTSTRAP/Music%20Store%20Website)
 - [Basic Responsive Website - a basic responsive website created with using HTML&CSS&Boostrap](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/1.Beginner%20Level%20Front-End%20Course/3.BOOTSTRAP/Basic%20Responsive%20Website)
 - [Fixed a Buggy Bootstrap Instagram Clone](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/1.Beginner%20Level%20Front-End%20Course/3.BOOTSTRAP/Buggy%20Instagram%20Clone)
+- [Medium Clone](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/1.Beginner%20Level%20Front-End%20Course/3.BOOTSTRAP/Medium%20Clone)
 
 **D.Javascript Section Tasks**
 # 6 Months Software Education Tasks
