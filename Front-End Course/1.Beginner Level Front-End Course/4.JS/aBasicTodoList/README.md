@@ -9,6 +9,10 @@ In this repository, user can
 - The web page designed with HTML&CSS&JS and Bootstrap.
 - All the data stores in localStorage. So within this it's being possible to avoid loss of data entered before.
 
+---
+
+- Note: You need to change fontAwesome source before installation.
+
 <br /><br />
 
 <details>
