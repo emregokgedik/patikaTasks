@@ -15,10 +15,10 @@
             <div class="col"></div>
             <div class="col">
                 <div class="input-group mb-3 mt-4">
-                    <input type="text" class="form-control" placeholder="Yeni görevi giriniz." aria-label="Username" aria-describedby="basic-addon1">
+                    <input type="text" id="taskInput" class="form-control" placeholder="Yeni görevi giriniz." aria-label="Username" aria-describedby="basic-addon1">
                   </div>
                   <div class="row">
-                    <button type="button" class="btn btn-outline-success col-3 mx-auto">Ekle</button></div>
+                    <button type="button" onclick="addTodo()" class="btn btn-outline-success col-3 mx-auto">Ekle</button></div>
             </li>
             </div>
             <div class="col"></div>
@@ -26,7 +26,7 @@
         <div class="row">
         <div class="col-2"></div>
         <div class="col-8">
-        <ul class="list-group list-group-flush">
+        <ul class="list-group list-group-flush" id="list">
             <li class="list-group-item">  <input class="form-check-input" type="checkbox">
                 Javascript çalış <button type="button" class="btn-close " aria-label="Close"></button>
             </li>
@@ -34,7 +34,7 @@
                 Kitap oku <button type="button" class="btn-close " aria-label="Close"></button>
             </li>
             <li class="list-group-item">  <input class="form-check-input" type="checkbox">
-                Spora git <button type="button" class="btn-close " aria-label="Close"></button>
+                Spora git <button type="button" class="btn-close " onclick="deleteTodo()" aria-label="Close"></button>
             </li>
             <li class="list-group-item">  <input class="form-check-input" type="checkbox">
                 Biraz daha spora git <button type="button" class="btn-close " aria-label="Close"></button>
