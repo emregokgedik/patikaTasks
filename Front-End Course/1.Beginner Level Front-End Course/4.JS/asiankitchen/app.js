@@ -1,3 +1,21 @@
+const buttons=[
+  {
+    id:1,
+    category:"All"
+  },
+  {
+    id:2,
+    category:"Korea"
+  },
+  {
+    id:3,
+    category:"Japan"
+  },
+  {
+    id:4,
+    category:"China"
+  }
+]
 const menu = [
   {
     id: 1,
@@ -81,3 +99,44 @@ const menu = [
     desc: `Red bean paste dessert, serving with honey.`,
   },
 ];
+function showButtons(){
+  let buttonHTML="";
+  buttons.forEach(element => {
+    buttonHTML+=`<button class="btn btn-outline-dark btn-item" id="button${element.id}">${element.category}</button>`
+  });
+  document.querySelector(".btn-container").innerHTML=buttonHTML;
+}
+showButtons();
+
+const allButtons=document.querySelectorAll(".btn");
+
+function deSelectAllButtons(){
+  allButtons.forEach(function(button){
+    button.classList.remove("btn-dark");
+    button.classList.add("btn-outline-dark");
+    })
+}
+
+
+allButtons.forEach(function(button){
+button.addEventListener("click",function(){
+  deSelectAllButtons();
+  if(button.classList.contains("btn-outline-dark")){
+    button.classList.remove("btn-outline-dark");
+    button.classList.add("btn-dark");
+  }else{
+    button.classList.remove("btn-dark");
+    button.classList.add("btn-outline-dark")
+  }
+})
+})
+
+// firstButton.addEventListener("click",function(){
+//   if(firstButton.classList.contains("btn-outline-dark")){
+//     firstButton.classList.remove("btn-outline-dark")
+//     firstButton.classList.add("btn-dark");
+//   }else{
+//     firstButton.classList.remove("btn-dark")
+//     firstButton.classList.add("btn-outline-dark")
+//   }
+// })
