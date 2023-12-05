@@ -29,10 +29,9 @@ In this repository, you can reach my codes of tasks in courses from Patika.
 **D.Javascript Section Tasks**
 
 - [javascriptclock - a basic date/time showing(updating every second) function added as requested format](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/1.Beginner%20Level%20Front-End%20Course/4.JS/javascriptclock)
-
 - [todolist - fixed some issues of existed page as required in the task instruction ](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/1.Beginner%20Level%20Front-End%20Course/4.JS/todolist)
-
 - [basicTodoList - basic to do list developed from zero with html&css&js&bootstrap ](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/1.Beginner%20Level%20Front-End%20Course/4.JS/aBasicTodoList)
+- [asiankitchen - developed some functions to display the particular foods as selected category with html&css&js&bootstrap ](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/1.Beginner%20Level%20Front-End%20Course/4.JS/aBasicTodoList)
   
 # 6 Months Software Education Tasks
 
