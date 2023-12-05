@@ -99,10 +99,11 @@ const menu = [
     desc: `Red bean paste dessert, serving with honey.`,
   },
 ];
+const menuSection=document.querySelector(".section-center");
 function showButtons(){
   let buttonHTML="";
   buttons.forEach(element => {
-    buttonHTML+=`<button class="btn btn-outline-dark btn-item" id="button${element.id}">${element.category}</button>`
+    buttonHTML+=`<button class="btn btn-outline-dark btn-item" id="${element.category}">${element.category}</button>`
   });
   document.querySelector(".btn-container").innerHTML=buttonHTML;
 }
@@ -121,6 +122,7 @@ function deSelectAllButtons(){
 allButtons.forEach(function(button){
 button.addEventListener("click",function(){
   deSelectAllButtons();
+  showSomething(button.id)
   if(button.classList.contains("btn-outline-dark")){
     button.classList.remove("btn-outline-dark");
     button.classList.add("btn-dark");
@@ -131,12 +133,48 @@ button.addEventListener("click",function(){
 })
 })
 
-// firstButton.addEventListener("click",function(){
-//   if(firstButton.classList.contains("btn-outline-dark")){
-//     firstButton.classList.remove("btn-outline-dark")
-//     firstButton.classList.add("btn-dark");
-//   }else{
-//     firstButton.classList.remove("btn-dark")
-//     firstButton.classList.add("btn-outline-dark")
-//   }
-// })
+function showSomething(input){
+  menuSection.innerHTML="";
+  let HTMLcontent="";
+  if(input==="All"){
+    menu.forEach(element=>{
+      HTMLcontent+=`
+      <div class="menu-items col-lg-6 col-sm-12">
+      <img src="${element.img}" alt="${element.title}" class="photo">
+      <div class="menu-info">
+        <div class="menu-title">
+          <h4>${element.title}</h4>
+          <h4 class="price">${element.price}</h4>
+        </div>
+        <div class="menu-text">
+        ${element.desc}
+        </div>
+      </div>
+    </div>
+      `
+    });
+  }else{
+    menu.forEach(element => {
+      if(element.category===input){
+        HTMLcontent+=`
+        <div class="menu-items col-lg-6 col-sm-12">
+        <img src="${element.img}" alt="${element.title}" class="photo">
+        <div class="menu-info">
+          <div class="menu-title">
+            <h4>${element.title}</h4>
+            <h4 class="price">${element.price}</h4>
+          </div>
+          <div class="menu-text">
+          ${element.desc}
+          </div>
+        </div>
+      </div>
+        `
+      }
+    });
+  }
+  menuSection.innerHTML=HTMLcontent;
+
+}
+
+  document.querySelector("#All").click();
