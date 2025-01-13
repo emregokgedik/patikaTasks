@@ -27,11 +27,13 @@ input.searche {
 }
 
 input.searche::placeholder {
-  font-size: 14px;
+  font-size: 15px;
   color: gray;
-  background-image: url(/bootstraplinkedinclone/assets/search-solid.svg);
+  padding-left: 20px;
+  background-image: url(../assets/search-solid.svg);
   background-repeat: no-repeat;
-  background-size: 7%;
+  background-position: 1px center; /* İkonun dikey ve yatay pozisyonunu hizalar */
+  background-size: 8%;
 }
 
 .body {
@@ -84,6 +86,7 @@ input.content::placeholder {
   background-image: url(/bootstraplinkedinclone/assets/edit-regular.svg);
   background-repeat: no-repeat;
   background-size: auto;
+
 }
 
 div.card {
