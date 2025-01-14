@@ -82,10 +82,11 @@ input.content {
 input.content::placeholder {
   font-weight: bolder;
   font-size: 14px;
+  padding-left: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(/bootstraplinkedinclone/assets/edit-regular.svg);
+  background-image: url(../assets/edit-regular.svg);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-position: 0px center;
 
 }
 
