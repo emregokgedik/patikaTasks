@@ -32,7 +32,7 @@ input.searche::placeholder {
   padding-left: 20px;
   background-image: url(../assets/search-solid.svg);
   background-repeat: no-repeat;
-  background-position: 1px center; /* İkonun dikey ve yatay pozisyonunu hizalar */
+  background-position: 1px center;
   background-size: 8%;
 }
 
