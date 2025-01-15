@@ -151,3 +151,11 @@ button.ref:hover {
 .row{
   margin-top: 70px;
 }
+.card-header {
+  padding: .75rem 1.25rem;
+  margin-bottom: 0;
+  /* Bootstrap default background remove */
+  background-color: transparent!important; 
+  /* Bootstrap default border remove */
+  border-bottom: none!important; 
+}
