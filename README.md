@@ -40,3 +40,7 @@ In this repository, you can reach my codes of tasks in courses from Patika.
 - [Week 7 Tasks: Basic examples such as pointers, creating/editing text files in C language](https://github.com/emregokgedik/patikaTasks/tree/main/Other%20Tasks/6_Months_Software_Education_Tasks/Week%207) 
 - [Week 8 Tasks: Basic examples such as finding max value in an array, finding word, total number of linked list element in C language](https://github.com/emregokgedik/patikaTasks/tree/main/Other%20Tasks/6_Months_Software_Education_Tasks/Week%208) 
 - [Week 10 Tasks: Bank management system in C language-console app](https://github.com/emregokgedik/patikaTasks/tree/main/Other%20Tasks/6_Months_Software_Education_Tasks/Week%2010) 
+
+## 2. Intermediate Level Frontend Development Path
+ **A.React Section Code/Tasks**
+ - [First NodeJS Page - a basic index.js file, used slugify package](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/2.Intermediate%20Level%20Front-End%20Course/1.React/learningNode) 
