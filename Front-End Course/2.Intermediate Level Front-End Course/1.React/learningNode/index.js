@@ -1,5 +1,4 @@
-var slugify = require('slugify')
+import {topla,hello} from "./my-module.js";
 
-const title = "My name is Emre"
-
-console.log(slugify(title,"_"))
+console.log(topla(2,4));
+hello("mehmet")
