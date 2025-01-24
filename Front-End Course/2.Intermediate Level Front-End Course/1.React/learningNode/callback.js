@@ -17,6 +17,7 @@ import fetch from "node-fetch"
 //     console.log("Hello")
 // });
 
-fetch("https://jsonplaceholder.typicode.com/users").then((data) => data.json()
+fetch("https://jsonplaceholder.typicode.com/users")
+.then((data) => data.json()
 .then(users => console.log(users))
 );
