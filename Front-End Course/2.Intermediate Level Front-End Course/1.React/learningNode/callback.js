@@ -1,17 +1,22 @@
-console.log("Starting...");
+import fetch from "node-fetch"
+//Callback Functions
+// setTimeout(() => {
+//     console.log("Hi!");
+// }, 2000);
 
-setTimeout(() => {
-    console.log("Hello after 2 seconds!");
-}, 2000);
+// setInterval(() => {
+//     let a = 1
+//     console.log(a);
+// }, 1000);
 
-const interval = setInterval(() => {
-    console.log("Hello, this is forever hello!");
-}, 2000);
+// const sayHi = (cb) => {
+//     cb();
+// }
 
-setTimeout(() => {
-    clearInterval(interval);
-    console.log("Stopped the interval.");
-}, 10000);
+// sayHi(() => {
+//     console.log("Hello")
+// });
 
-const sayHi = (name) => console.log(`Hi, ${name}!`);
-sayHi("Emre");
+fetch("https://jsonplaceholder.typicode.com/users").then((data) => data.json()
+.then(users => console.log(users))
+);
