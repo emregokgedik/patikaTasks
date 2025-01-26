@@ -43,4 +43,4 @@ In this repository, you can reach my codes of tasks in courses from Patika.
 
 ## 2. Intermediate Level Frontend Development Path
  **A.React Section Code/Tasks**
- - [First NodeJS Page - a basic index.js file, used slugify package](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/2.Intermediate%20Level%20Front-End%20Course/1.React/learningNode) 
+ - [First NodeJS Page - JS basics, callback functions, array functions](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/2.Intermediate%20Level%20Front-End%20Course/1.React/learningNode) 
