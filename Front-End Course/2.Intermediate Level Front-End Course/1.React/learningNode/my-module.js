@@ -2,8 +2,8 @@ const hello = (name) =>{
     console.log("hello "+name);
 }
 
-const topla = (a,b) => {
+const sum = (a,b) => {
     return a+b;
 }
 
-export {hello,topla};
+export {hello,sum};
