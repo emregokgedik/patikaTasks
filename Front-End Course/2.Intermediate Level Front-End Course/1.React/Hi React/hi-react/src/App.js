@@ -12,7 +12,7 @@ const isLoggedIn = true;
 function App(){
   return(
     <div>
-      <User name={name} surname={surname} age={age} isLoggedIn={isLoggedIn} />
+      <User name={name} surname={surname} age={age} isLoggedIn={isLoggedIn} friends={['Ahmet','Mehmet','Tayfun','Ayse']}/>
       <Header />
     </div>
   )
