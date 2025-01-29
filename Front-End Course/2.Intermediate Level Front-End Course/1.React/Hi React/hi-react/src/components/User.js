@@ -8,7 +8,7 @@ function User({name, surname, age, isLoggedIn, friends}){
         <h2>Friends</h2>
         {
             friends.map((friend,index)=>
-            <div key={index}>{index} - {friend}</div>
+            <div key={friend.id}>{friend.name}</div>
         )
         }
         </>
