@@ -14,12 +14,16 @@ function User({name, surname, age, isLoggedIn, friends, address}){
             }
             
         </h1>
+        {isLoggedIn && (
+            <>
         <h2>Friends</h2>
-        {isLoggedIn && friends &&
-            friends.map((friend,index)=>
-            <div key={friend.id}>{friend.name}</div>
-        )
+        {friends && 
+            friends.map((friend, index) =>
+                <div key={friend.id}>{friend.name}</div>
+            )
         }
+            </>
+        )}
         </>
     )
 }
