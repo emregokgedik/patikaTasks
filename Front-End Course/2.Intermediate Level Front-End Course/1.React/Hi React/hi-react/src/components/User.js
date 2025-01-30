@@ -9,10 +9,13 @@ function User({name, surname, age, isLoggedIn, friends, address}){
                 : "Please login."
             }
             <br />
-            Address: {address.title} {address.zip}
+            {isLoggedIn && 
+                `Address: ${address.title} ${address.zip}.`
+            }
+            
         </h1>
         <h2>Friends</h2>
-        {friends &&
+        {isLoggedIn && friends &&
             friends.map((friend,index)=>
             <div key={friend.id}>{friend.name}</div>
         )

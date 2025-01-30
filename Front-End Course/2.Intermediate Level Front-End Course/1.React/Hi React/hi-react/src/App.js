@@ -5,7 +5,7 @@ import User from './components/User.js';
 const name = "Emre";
 const surname = "Gokgedik";
 const age = 23;
-const isLoggedIn = true;
+const isLoggedIn = false;
 const friends = [
   {
   id:1,
