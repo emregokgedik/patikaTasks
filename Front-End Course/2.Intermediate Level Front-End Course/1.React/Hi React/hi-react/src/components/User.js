@@ -1,10 +1,15 @@
 import PropTypes from "prop-types";
 
-function User({name, surname, age, isLoggedIn, friends}){
+function User({name, surname, age, isLoggedIn, friends, address}){
     return (
         <>
-        <h1>
-            {isLoggedIn ? `Hello ${name} ${surname}! (age: ${age})` : "Please login."}
+<h1>
+            {isLoggedIn ? 
+                `Hello ${name} ${surname}! (age: ${age})` 
+                : "Please login."
+            }
+            <br />
+            Address: {address.title} {address.zip}
         </h1>
         <h2>Friends</h2>
         {friends &&
@@ -21,7 +26,11 @@ User.propTypes = {
     age: PropTypes.number.isRequired,
     isLoggedIn: PropTypes.bool.isRequired,
     age: PropTypes.number.isRequired,
-    friends: PropTypes.array
+    friends: PropTypes.array,
+    address: PropTypes.shape({
+        title: PropTypes.string,
+        zip: PropTypes.number
+    })
   };
 
 export default User;

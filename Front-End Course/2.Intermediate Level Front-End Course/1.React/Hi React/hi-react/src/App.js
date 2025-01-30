@@ -23,11 +23,15 @@ const friends = [
   id:4,
   name:'Ayse'
   }]
+const address = {
+  title: 'Atasehir/Istanbul',
+  zip: 34440
+}
 
 function App(){
   return(
     <div>
-      <User name={name} surname={surname} age={age} isLoggedIn={isLoggedIn} friends={friends}/>
+      <User name={name} surname={surname} age={age} isLoggedIn={isLoggedIn} friends={friends} address={address}/>
       <Header />
     </div>
   )
