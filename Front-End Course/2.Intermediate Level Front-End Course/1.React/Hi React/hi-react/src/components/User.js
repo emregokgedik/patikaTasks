@@ -1,20 +1,23 @@
 import PropTypes from "prop-types";
 
 function User({name, surname, age, isLoggedIn, friends, address}){
+
+    if (!isLoggedIn){
+        return <div>Please login</div>
+    }
     return (
         <>
 <h1>
-            {isLoggedIn ? 
+            { 
                 `Hello ${name} ${surname}! (age: ${age})` 
-                : "Please login."
             }
             <br />
-            {isLoggedIn && 
+            {
                 `Address: ${address.title} ${address.zip}.`
             }
             
         </h1>
-        {isLoggedIn && (
+        {
             <>
         <h2>Friends</h2>
         {friends && 
@@ -23,7 +26,7 @@ function User({name, surname, age, isLoggedIn, friends, address}){
             )
         }
             </>
-        )}
+        }
         </>
     )
 }
@@ -39,5 +42,9 @@ User.propTypes = {
         zip: PropTypes.number
     })
   };
+
+  User.defaultProps = {
+    isLoggedIn: false
+  }
 
 export default User;
