@@ -1,7 +1,8 @@
 
 # My Patika Tasks
 
-In this repository, you can reach my codes of tasks in courses from Patika.
+In this repository, you can reach my codes of tasks in courses from Patika.<br/><br/>
+Patika is the Türkiye's largest online software learning platform.
 
 # Front-End Course
 ## 1. Beginner Level Front-End Course
@@ -45,3 +46,4 @@ In this repository, you can reach my codes of tasks in courses from Patika.
  **A.React Section Code/Tasks**
  - [First NodeJS Page - JS basics, callback functions, array functions](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/2.Intermediate%20Level%20Front-End%20Course/1.React/learningNode)
  - [Asynchronous Data Fetching and User-Post Merging - Function to fetch user and their posts using Axios](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/2.Intermediate%20Level%20Front-End%20Course/1.React/Asynchronous%20Data%20Fetching%20and%20User-Post%20Merging) 
+ - [First ReactJS Page - ReactJS basics, Components, Props](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/2.Intermediate%20Level%20Front-End%20Course/1.React/Hi%20React/hi-react)
