@@ -4,13 +4,15 @@ function Counter() {
   const [number,setNumber] = useState(0)
   const [name,setName] = useState("Emre")
 
-  useEffect(()=>{
+  useEffect(() => {
     console.log("Component mounted");
 
-    setInterval(()=>{
-        setNumber((n)=>n+1);
-    },1000);
-  },[])
+    const interval = setInterval(() => {
+      setNumber((n) => n + 1);
+    }, 1000);
+
+    return () => clearInterval(interval); // Clean previous interval
+  }, []);
 
   useEffect(()=>{
     console.log("Number state updated");
