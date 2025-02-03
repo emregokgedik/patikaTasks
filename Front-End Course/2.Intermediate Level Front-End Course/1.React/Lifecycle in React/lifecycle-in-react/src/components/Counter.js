@@ -6,6 +6,10 @@ function Counter() {
 
   useEffect(()=>{
     console.log("Component mounted");
+
+    setInterval(()=>{
+        setNumber((n)=>n+1);
+    },1000);
   },[])
 
   useEffect(()=>{
