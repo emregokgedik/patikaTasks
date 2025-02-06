@@ -1,11 +1,15 @@
-import React from 'react'
+import {useState,useEffect} from 'react'
 import Form from './Form'
 
 function Contacts() {
+  const [contacts,setContacts] = useState([]);
+  useEffect(()=>{
+    console.log("Contacts log:",contacts);
+  },[contacts])
   return (
     <div>
       Contacts
-      <Form />
+      <Form addContact={setContacts} contacts={contacts}/>
     </div>
   )
 }
