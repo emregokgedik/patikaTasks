@@ -21,8 +21,8 @@ function List({contacts}) {
             </li>
         ))}
       </ul>
-      <p>Total contacts {filtered.length}</p>
-    </div>
+      {filtered.length ? <p>Total contacts: {filtered.length}</p> : <p>Error: Could not find any contacts.</p>}
+      </div>
   )
 }
 
