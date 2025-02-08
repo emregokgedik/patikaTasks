@@ -16,6 +16,7 @@ function Form({addContact,contacts}) {
     const onSubmit = (e) => {
         e.preventDefault()
         if(form.full_name === "" || form.phone_number === ""){
+          alert('Name or number is empty')
             return false;
         }
         addContact([...contacts,form])
