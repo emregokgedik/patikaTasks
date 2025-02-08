@@ -5,6 +5,15 @@ In this repository, you can reach my codes of tasks in courses from Patika.<br/>
 Patika is the Türkiye's largest online software learning platform.
 
 # Front-End Course
+
+## 2. Intermediate Level Frontend Development Path
+ **A.React Section Code/Tasks**
+  - [Contacts App - A basic contacts app, (add&list contact with name and phone number)](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/2.Intermediate%20Level%20Front-End%20Course/1.React/Contacts%20App/contacts-app)
+ - [First NodeJS Page - JS basics, callback functions, array functions](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/2.Intermediate%20Level%20Front-End%20Course/1.React/learningNode)
+ - [Asynchronous Data Fetching and User-Post Merging - Function to fetch user and their posts using Axios](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/2.Intermediate%20Level%20Front-End%20Course/1.React/Asynchronous%20Data%20Fetching%20and%20User-Post%20Merging) 
+ - [First ReactJS Page - ReactJS basics, Components, Props](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/2.Intermediate%20Level%20Front-End%20Course/1.React/Hi%20React/hi-react)
+ - [Lifecycle in React - Basic counter app, create with lifecycle functions such as useState, useEffect](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/2.Intermediate%20Level%20Front-End%20Course/1.React/Lifecycle%20in%20React/lifecycle-in-react)
+
 ## 1. Beginner Level Front-End Course
     
  **A.HTML Section Tasks**
@@ -41,10 +50,3 @@ Patika is the Türkiye's largest online software learning platform.
 - [Week 7 Tasks: Basic examples such as pointers, creating/editing text files in C language](https://github.com/emregokgedik/patikaTasks/tree/main/Other%20Tasks/6_Months_Software_Education_Tasks/Week%207) 
 - [Week 8 Tasks: Basic examples such as finding max value in an array, finding word, total number of linked list element in C language](https://github.com/emregokgedik/patikaTasks/tree/main/Other%20Tasks/6_Months_Software_Education_Tasks/Week%208) 
 - [Week 10 Tasks: Bank management system in C language-console app](https://github.com/emregokgedik/patikaTasks/tree/main/Other%20Tasks/6_Months_Software_Education_Tasks/Week%2010) 
-
-## 2. Intermediate Level Frontend Development Path
- **A.React Section Code/Tasks**
- - [First NodeJS Page - JS basics, callback functions, array functions](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/2.Intermediate%20Level%20Front-End%20Course/1.React/learningNode)
- - [Asynchronous Data Fetching and User-Post Merging - Function to fetch user and their posts using Axios](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/2.Intermediate%20Level%20Front-End%20Course/1.React/Asynchronous%20Data%20Fetching%20and%20User-Post%20Merging) 
- - [First ReactJS Page - ReactJS basics, Components, Props](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/2.Intermediate%20Level%20Front-End%20Course/1.React/Hi%20React/hi-react)
- - [Lifecycle in React - Basic counter app, create with lifecycle functions such as useState, useEffect](https://github.com/emregokgedik/patikaTasks/tree/main/Front-End%20Course/2.Intermediate%20Level%20Front-End%20Course/1.React/Lifecycle%20in%20React/lifecycle-in-react)
