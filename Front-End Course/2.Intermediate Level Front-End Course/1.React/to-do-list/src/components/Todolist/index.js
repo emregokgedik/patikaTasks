@@ -6,7 +6,7 @@ import List from './List'
 function Todolist() {
 	const [toDoList,setToDoList] = useState([{
 		toDoName: 'Learn React',
-		statue: 'true'
+		toDoStatue: 'true'
 	}])
 	useEffect(()=>{
 		console.log("toDoList log:",toDoList);
@@ -14,7 +14,7 @@ function Todolist() {
   return (
     <div>
       <section class="todoapp">
-	<Add />
+	<Add addToDo={setToDoList} toDoList={toDoList}/>
 	<List />
 </section>
 
